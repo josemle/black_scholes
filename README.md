@@ -6,6 +6,24 @@ The Black-Scholes Model is a mathematical model used to calculate the theoretica
 
 For more information on the Black-Scholes model, check out the Wikipedia page.
 
+# Setup and Installation
+Prerequisites
+Before getting started, you will need:
+
+Rust installed on your machine. If you don’t have it yet, follow the instructions on the official Rust website.
+Arbitrum Stylus SDK for deploying and interacting with the Rust smart contract in an Ethereum-compatible environment. Follow the Arbitrum Stylus SDK documentation.
+Installation Steps
+Clone this repository:
+```
+git clone https://github.com/yourusername/Arbitrum-Stylus-Black-Scholes.git
+cd Arbitrum-Stylus-Black-Scholes
+```
+Install dependencies: This project uses rust_decimal, an efficient and precise crate for performing financial calculations.
+```
+cargo build
+```
+Deploy to Arbitrum: Follow the guidelines in the Arbitrum Stylus documentation to deploy the contract to an Arbitrum testnet or mainnet. Once deployed, you can start calling the compute method.
+
 # Features
  - Rust-based Implementation: Leverages the power and safety of the Rust programming language.
  - Precision with rust_decimal: The rust_decimal crate ensures high-precision arithmetic for financial calculations.
