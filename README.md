@@ -12,18 +12,6 @@ For more information on the Black-Scholes model, check out the Wikipedia page.
  - Arbitrum Stylus SDK: Demonstrates how to use Arbitrum's Stylus SDK to execute Rust code in an Ethereum-like environment, enabling scalability and performance.
  - Simple, Modular, and Scalable: Designed to be a starting point for more advanced derivatives and options pricing models.
  - Real-time Option Pricing: Computes the price for options based on live market data.
-# Setup and Installation
-Prerequisites
-Before getting started, you will need:
- - Rust installed on your machine. If you don’t have it yet, follow the instructions on the official Rust website.
- - Arbitrum Stylus SDK for deploying and interacting with the Rust smart contract in an Ethereum-compatible environment. Follow the Arbitrum Stylus SDK documentation.
-Installation Steps
-1. Clone this repository:
-git clone https://github.com/yourusername/Arbitrum-Stylus-Black-Scholes.git
-cd Arbitrum-Stylus-Black-Scholes
-2. Install dependencies: This project uses rust_decimal, an efficient and precise crate for performing financial calculations.
-cargo build
-3. Deploy to Arbitrum: Follow the guidelines in the Arbitrum Stylus documentation to deploy the contract to an Arbitrum testnet or mainnet. Once deployed, you can start calling the compute method.
 
 # Usage
 The compute method in the contract calculates the price of the option based on the Black-Scholes model. The following parameters are used to compute the result:
